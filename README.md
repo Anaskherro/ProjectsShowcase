@@ -1,8 +1,8 @@
-# Portfolio: Robotics & Autonomous Systems Engineering
-### Anas [Your Last Name] | Electromechanical & Robotics Engineer
+# Portfolio: Robotics & Autonomous Systems Projects
+### Anas KHERRO | Electromechanical & Robotics Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](YOUR_LINKEDIN_URL)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=flat&logo=gmail)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anaskherro/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=flat&logo=gmail)](mailto:anaskherro@gmail.com)
 
 ---
 
@@ -16,8 +16,8 @@ Below is a collection of my key projects, ranging from aerial platforms (UAVs) t
 ## 🛠 Skills Snapshot
 * **Core Stack:** ROS / ROS2, C++, Python, MATLAB/Simulink
 * **Flight Controllers:** Pixhawk, ArduPilot, PX4
-* **Control & Planning:** MPC, PID, EKF, A*, Hybrid A*, Pure Pursuit
-* **Simulation:** Gazebo, CARLA, Rviz
+* **Control & Planning:** MPC, PID, EKF, Hybrid A*, Pure Pursuit
+* **Simulation:** Gazebo, CARLA, IsaacSim, Rviz
 
 ---
 
@@ -29,8 +29,6 @@ Below is a collection of my key projects, ranging from aerial platforms (UAVs) t
 
 > **The Challenge:** Navigating a quadcopter through complex, cluttered environments requires precise global planning and reactive control.
 > **The Solution:** Implemented a full autonomy stack using **ROS and Pixhawk**. I developed a **Hybrid A*** global planner for efficient trajectory generation and conducted a rigorous benchmark between **Model Predictive Control (MPC)** and **PID** controllers to analyze performance under dynamic constraints.
-
-![Quadrotor Navigation Demo](link_to_your_gif_or_image.gif)
 
 ### 2. Nonlinear Model Predictive Control (NMPC) for Quadcopters
 **Focus:** Advanced Control, Optimization
@@ -50,31 +48,31 @@ An autonomous driving system developed within the **CARLA Simulator**.
 * **Control:** Implemented a **Pure Pursuit** algorithm for geometric path tracking.
 * **Perception:** Integrated a computer vision pipeline for real-time **Traffic Sign Detection**, closing the loop between perception and actuation.
 
-![Carla Simulation Demo](link_to_your_gif_or_image.gif)
-
 ### 4. REVER: Outdoor Autonomous Rover
-**Focus:** Hardware Integration, System Design, Long-Range Comms
+**Focus:** Hardware and sensors Integration, System Design and Tuning, Long-Range Comms
 
 A custom-built, rugged outdoor rover designed for efficiency and modularity.
-* **Hardware:** Optimized for weight and energy efficiency using high-torque/low-consumption motors.
-* **Autonomy:** ArduPilot-based architecture featuring GPS waypoint navigation and obstacle avoidance.
-* **Modularity:** Designed with a scalable payload bay to support Lidar and Camera integration for future SLAM implementations.
+* **Hardware:** Optimized for weight and energy efficiency using low-consumption motors.
+* **Autonomy:** ArduPilot-based architecture featuring GPS waypoint navigation and obstacle avoidance (LiDAR).
+* **Modularity:** Designed with a scalable payload bay to support Lidar and Camera integration.
+
 
 ### 5. LUMEN: Indoor Autonomous Robot
 **Focus:** Indoor Navigation
-* **Description:** A compact autonomous platform designed for indoor mapping and navigation challenges. (Add 1 more sentence here about sensors, e.g., "Utilizes LIDAR and odometry for localization").
+* **Description:** A compact autonomous platform designed for indoor mapping and navigation challenges. Utilizes LIDAR and wheel odometry for localization, can fuse imu data if needed using robot_localization package and utilizes Nav2 for navigation.
+* Links: [Lumen_bringup](https://github.com/anaskherro/lumen_bringup)
 
 ---
 
 ## 🚢 Marine Robotics (USVs)
 
-### 6. TRITON: ROS2 Autonomous Surface Vehicle
+### 6. TRITON: ROS2/Pixhawk Autonomous USV
 **Focus:** ROS2 Migration, State Estimation (EKF)
 * **Github:** [EKF State Estimation](https://github.com/anaskherro/ros_ekf) | [Visualizations](https://github.com/anaskherro/usv_visualizations)
-
 A maritime robotics project leveraging the newer **ROS2** framework.
 * **State Estimation:** Implemented an **Extended Kalman Filter (EKF)** to fuse IMU and GPS data for precise localization in water environments.
 * **Visualization:** Custom Rviz plugins for monitoring USV telemetry and trajectory.
+* **Autopilot Integration :** Can be used with Ardupilot for other puposes.
 
 ---
 
