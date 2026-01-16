@@ -26,6 +26,7 @@ Below is a collection of my key projects, ranging from aerial platforms (UAVs) t
 ### 1. Quadrotor Navigation in Obstacle-Dense Environments
 **Focus:** Path Planning, Control Theory, Benchmarking
 * **Github:** [Path Planning](https://github.com/anaskherro/quadrotor_path_plannig) | [Path Tracking](https://github.com/anaskherro/quadrotor_path_tracking)
+* [Video](https://drive.google.com/file/d/1VvDDkERO4ItsNEfG7CMlqEyuqMEE_Cq_/view?usp=drive_link)
 
 > **The Challenge:** Navigating a quadcopter through complex, cluttered environments requires precise global planning and reactive control.
 > **The Solution:** Implemented a full autonomy stack using **ROS and Pixhawk**. I developed a **Hybrid A*** global planner for efficient trajectory generation and conducted a rigorous benchmark between **Model Predictive Control (MPC)** and **PID** controllers to analyze performance under dynamic constraints.
@@ -50,15 +51,15 @@ An autonomous driving system developed within the **CARLA Simulator**.
 
 ### 4. REVER: Outdoor Autonomous Rover
 **Focus:** Hardware and sensors Integration, System Design and Tuning, Long-Range Comms
-
+[Gallery](https://drive.google.com/drive/folders/10yuC23ChjQP-XX6tkt6CHY55PI3pUgJr?usp=drive_link)
 A custom-built, rugged outdoor rover designed for efficiency and modularity.
 * **Hardware:** Optimized for weight and energy efficiency using low-consumption motors.
 * **Autonomy:** ArduPilot-based architecture featuring GPS waypoint navigation and obstacle avoidance (LiDAR).
 * **Modularity:** Designed with a scalable payload bay to support Lidar and Camera integration.
 
-
 ### 5. LUMEN: Indoor Autonomous Robot
 **Focus:** Indoor Navigation
+[Gallery](https://drive.google.com/drive/folders/1Z2_rpDoNiELnXS25UgHCnB0VAam_mEan?usp=drive_link)
 * **Description:** A compact autonomous platform designed for indoor mapping and navigation challenges. Utilizes LIDAR and wheel odometry for localization, can fuse imu data if needed using robot_localization package and utilizes Nav2 for navigation.
 * Links: [Lumen_bringup](https://github.com/anaskherro/lumen_bringup)
 
@@ -69,6 +70,7 @@ A custom-built, rugged outdoor rover designed for efficiency and modularity.
 ### 6. TRITON: ROS2/Pixhawk Autonomous USV
 **Focus:** ROS2 Migration, State Estimation (EKF)
 * **Github:** [EKF State Estimation](https://github.com/anaskherro/ros_ekf) | [Visualizations](https://github.com/anaskherro/usv_visualizations)
+* [Gallery](https://drive.google.com/drive/folders/14xPx6Xt03T0g7zk6x1JF4C5E2yV9lM6p?usp=drive_link)
 A maritime robotics project leveraging the newer **ROS2** framework.
 * **State Estimation:** Implemented an **Extended Kalman Filter (EKF)** to fuse IMU and GPS data for precise localization in water environments.
 * **Visualization:** Custom Rviz plugins for monitoring USV telemetry and trajectory.
