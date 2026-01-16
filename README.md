@@ -51,7 +51,7 @@ An autonomous driving system developed within the **CARLA Simulator**.
 
 ### 4. REVER: Outdoor Autonomous Rover
 **Focus:** Hardware and sensors Integration, System Design and Tuning, Long-Range Comms
-[Gallery](https://drive.google.com/drive/folders/10yuC23ChjQP-XX6tkt6CHY55PI3pUgJr?usp=drive_link)
+* [Gallery](https://drive.google.com/drive/folders/10yuC23ChjQP-XX6tkt6CHY55PI3pUgJr?usp=drive_link)
 A custom-built, rugged outdoor rover designed for efficiency and modularity.
 * **Hardware:** Optimized for weight and energy efficiency using low-consumption motors.
 * **Autonomy:** ArduPilot-based architecture featuring GPS waypoint navigation and obstacle avoidance (LiDAR).
@@ -59,7 +59,7 @@ A custom-built, rugged outdoor rover designed for efficiency and modularity.
 
 ### 5. LUMEN: Indoor Autonomous Robot
 **Focus:** Indoor Navigation
-[Gallery](https://drive.google.com/drive/folders/1Z2_rpDoNiELnXS25UgHCnB0VAam_mEan?usp=drive_link)
+* [Gallery](https://drive.google.com/drive/folders/1Z2_rpDoNiELnXS25UgHCnB0VAam_mEan?usp=drive_link)
 * **Description:** A compact autonomous platform designed for indoor mapping and navigation challenges. Utilizes LIDAR and wheel odometry for localization, can fuse imu data if needed using robot_localization package and utilizes Nav2 for navigation.
 * Links: [Lumen_bringup](https://github.com/anaskherro/lumen_bringup)
 
