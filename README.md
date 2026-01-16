@@ -70,7 +70,7 @@ A custom-built, rugged outdoor rover designed for efficiency and modularity.
 **Focus:** ROS2 Migration, State Estimation (EKF)
 * **Github:** [EKF State Estimation](https://github.com/anaskherro/ros_ekf) | [Visualizations](https://github.com/anaskherro/usv_visualizations)
 * [Gallery](https://drive.google.com/drive/folders/14xPx6Xt03T0g7zk6x1JF4C5E2yV9lM6p?usp=drive_link)
-A maritime robotics project leveraging the newer **ROS2** framework.
+* A maritime robotics project leveraging the newer **ROS2** framework.
 * **State Estimation:** Implemented an **Extended Kalman Filter (EKF)** to fuse IMU and GPS data for precise localization in water environments.
 * **Visualization:** Custom Rviz plugins for monitoring USV telemetry and trajectory.
 * **Autopilot Integration :** Can be used with Ardupilot for other puposes.
