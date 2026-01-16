@@ -25,7 +25,7 @@ Below is a collection of my key projects, ranging from aerial platforms (UAVs) t
 
 ### 1. Quadrotor Navigation in Obstacle-Dense Environments
 **Focus:** Path Planning, Control Theory, Benchmarking
-* **Github:** [Path Planning](https://github.com/anaskherro/quadrotor_path_plannig) | [Path Tracking](https://github.com/anaskherro/quadrotor_path_tracking)
+* **Github:** [Path Planning](https://github.com/anaskherro/quadrotor_path_planning) | [Path Tracking](https://github.com/anaskherro/quadrotor_path_tracking)
 * [Video](https://drive.google.com/file/d/1VvDDkERO4ItsNEfG7CMlqEyuqMEE_Cq_/view?usp=drive_link)
 
 > **The Challenge:** Navigating a quadcopter through complex, cluttered environments requires precise global planning and reactive control.
