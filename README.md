@@ -80,11 +80,10 @@ A custom-built, rugged outdoor rover designed for efficiency and modularity.
 ## 🔬 Ongoing Research & Development
 
 ### 🚧 Data-Driven Control for High-Speed Drones
-** Investigating the use of Machine Learning and data-driven methods to enhance control authority during high-speed flight, compensating for unmodeled aerodynamic effects.
+* Investigating the use of Machine Learning and data-driven methods to enhance control authority during high-speed flight, compensating for unmodeled aerodynamic effects.
 
 ### 🚧 D.A.R.T: Autonomous Delivery Robot (Rever V2)
-** Developing a last-mile delivery solution focusing on urban navigation and payload security.
-
-[Gallery](https://drive.google.com/drive/folders/1srTqFJtDQluDLLkY-mwDE7wqcz8LDh5f?usp=sharing)
+* Developing a last-mile delivery solution focusing on urban navigation and payload security.
+* [Gallery](https://drive.google.com/drive/folders/1srTqFJtDQluDLLkY-mwDE7wqcz8LDh5f?usp=sharing)
 ---
 *Open to technical discussions regarding implementation details and architectural choices.*
